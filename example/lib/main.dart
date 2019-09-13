@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
 }
 
 class ListagemScreen extends StatelessWidget {
-  final lista = List.generate(50, (index) => index);
+  final lista = List.generate(2000, (index) => index);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
